@@ -16,7 +16,9 @@ header {
 header .container .navbar-brand {
     display: flex;
 }
-
+header .container .navbar-brand .logo img:hover{
+    padding-left: 10px;
+}
 header .container .navbar-brand h1 {
     color: #ffff;
     font-size: 24px;
@@ -40,7 +42,7 @@ header .container .navbar-brand .main-text {
 .col-6 .form {
     width: 195px;
     height: 34px;
-    margin-left: 140px;
+    margin-left: 108px;
 }
 
 header .container .row .col-6 {
@@ -69,6 +71,11 @@ header .container .row .col-6 .form-control {
     -moz-appearance: none;
     appearance: none;
     border-radius: 1rem;
+    padding-right: 0px;
+    padding-left: 11px;
+}
+header .container .row .col-6 .form-control:hover{
+    border-color: greenyellow;
 }
 
 header .container .row .col-6 .form-control::placeholder {
@@ -79,21 +86,23 @@ header .container .row .col-6 button {
     position: absolute;
     background-color: #0070CD;
     border-style: hidden;
-    margin-left: 150px;
-    margin-top: 5px;
     color: #FFFFFF;
+    margin-left: 151px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 8px;
 
 }
 
-.social span {
-    padding: 7.9px;
-
-}
-
-.social span::before {
+.social svg {
+    padding-right: 7.9px;
     width: 28.9px;
     height: 28.9px;
+    color: #FFFFFF;
 }
+
+
+
 
 header .container-xl .navbar {
     height: 51px;
@@ -106,7 +115,9 @@ header .container-xl .navbar {
     font-family: 'BPG DejaVu Sans Caps';
 
 }
-
+.nav-link:hover{
+    color: greenyellow;
+}
 header .container-xl .navbar .nav {
     text-align: center;
     margin-left: 43px;
@@ -173,6 +184,9 @@ header .container-xl .navbar a{
     font-size: 16px;
     margin-top: 47.4px;
 }
+.about-section .container .row .col-6 .public h2:hover{
+    font-size: 18px;
+}
 .about-section .container .row .col-6 .img-div{
     display: flex;
 }
@@ -185,6 +199,9 @@ header .container-xl .navbar a{
 }
 .about-section .container .row .col-6 .img-div .circle-img{
     text-align: center;
+}
+.about-section .container .row .col-6 .img-div .circle-img:hover{
+    padding-top: 20px;
 }
 .arrow-line{
     width: 21.9px;
@@ -208,6 +225,7 @@ header .container-xl .navbar a{
     font-size: 30px;
     font-family: 'BPG DejaVu Sans Caps';
     margin-top: 46px;
+    margin-bottom: 47px;
 }
 .programs .container .row .double-img img{
     padding-right: 138px;
@@ -346,4 +364,51 @@ footer .gray-div h2{
     opacity: 55%;
     text-align: end;
     margin-top: 15px;
+}
+footer .container .col-4 .icons svg{
+    width: 28.9px;
+    height: 28.9px;
+    color:#EB5E1C ;
+    
+}
+footer .container .col-4 .icons{
+    margin-top: 9.5px;
+    margin-bottom: 10px;
+}
+/* adress */
+.team-section{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'BPG DejaVu Sans Caps';
+}
+.team-section h1{
+    color: #0070CD;
+    font-size:36px ;
+}
+.team-section .container-xxl{
+    margin-top: 83.5px;
+}
+.team-section .container-xxl .text-img-div{
+    width: 100%;
+    max-width: 202px;
+    height: 41.42px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 800px;
+    left: 416px;
+    padding-top: 8px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.team-section .container-xxl .text-img-div h3{
+    font-size: 11px;
+    color:#EB5E1C ;
+}
+.team-section .container-xxl .text-img-div h4{
+    font-size: 8px;
+    color:#EB5E1C ;
+    padding-left: 65px;
+}
+.team-section .container{
+    margin-top: 44px;
 }
