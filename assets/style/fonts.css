@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?tuijp5');
-  src:  url('../fonts/icomoon.eot?tuijp5#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?tuijp5') format('truetype'),
-    url('../fonts/icomoon.woff?tuijp5') format('woff'),
-    url('../fonts/icomoon.svg?tuijp5#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?mjm20c');
+  src:  url('../fonts/icomoon.eot?mjm20c#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mjm20c') format('truetype'),
+    url('../fonts/icomoon.woff?mjm20c') format('woff'),
+    url('../fonts/icomoon.svg?mjm20c#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -239,6 +238,8 @@
   content: "\e92e";
   color: #fff;
 }
+
+
 
   @font-face {
     font-family: 'Overpass';
