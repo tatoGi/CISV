@@ -34,7 +34,9 @@
           <div class="form">
             <form class="d-flex search">
               <input class="form-control me-2" type="search" placeholder="ძიება" aria-label="Search">
-              <button><span class="icon-search-1"></span> </button>
+              <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
 
             </form>
           </div>
@@ -52,18 +54,17 @@
     </div>
     </div>
     </div>
-    <div class="container-xl">
+    <div class="container-xl main">
       <div class="row">
-        <div class="col-md-10 col-10">
-          <div class="navbar">
-            <div class="nav">
+          <div  class="navbar" id="mynavbar">
+            <div class="nav" id="nav">
               <div class="nav-link">
                 <a href="#"> <span class="icon-internet"></span></a>
               </div>
               <a href="">
                 <div class="nav-link">მთავარი</div>
               </a>
-              <a href="adress.html">
+              <a href="">
                 <div class="nav-link">ჩვენ შესახებ</div>
               </a>
               <a href="program.html">
@@ -82,13 +83,14 @@
                 <div class="nav-link">კონტაქტი</div>
               </a>
             </div>
-          </div>
-        </div>
-        <div class="col-md-2 col-2">
-          <a href="come.html">
-            <h3>შემოგვიერთდით</h3>
+            <button type="button" class="exeption" data-toggle="modal"
+            data-target="#exampleModalLong">შემოგვიერთდით</button>
+          
           </a>
         </div>
+          </div>
+        </div>
+       
       </div>
     </div>
   </header>
@@ -244,6 +246,7 @@
               padding-right: 14px;"></a>
               <a href="" class="icon-instagram"></a>
             </div>
+            
               <form action="">
                 <input type="text">
                 <button>გამოიწერე</button>
@@ -274,7 +277,7 @@
 
 
 
-
+  <script src="assets/js/script.js"></script>
   <script src="assets/js/bootstrap.js"></script>
   <script src="assets/js/fancybox.js"></script>
   <script src="assets/js/jquery.js"></script>
