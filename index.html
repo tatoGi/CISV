@@ -34,9 +34,8 @@
           <div class="form">
             <form class="d-flex search">
               <input class="form-control me-2" type="search" placeholder="ძიება" aria-label="Search">
-              <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg></button>
+              <button class="icon-search-1">
+              </button>
 
             </form>
           </div>
@@ -93,6 +92,48 @@
        
       </div>
     </div>
+    <div class="burgermenu">
+      <nav role="navigation">
+        <div id="menuToggle">
+         
+          <input type="checkbox" />
+         
+          <span></span>
+          <span></span>
+          <span></span>
+          
+         
+          <ul id="menu">
+            <div class="navbar-brand">
+              <img src="assets/img/logo.png" alt="">
+
+            </div>
+            <a href="">
+              <div class="nav-link">მთავარი</div>
+            </a>
+            <a href="">
+              <div class="nav-link">ჩვენ შესახებ</div>
+            </a>
+            <a href="program.html">
+              <div class="nav-link">პროგრამები</div>
+            </a>
+            <a href="">
+              <div class="nav-link">პირობები</div>
+            </a>
+            <a href="">
+              <div class="nav-link">გამოხმაურება</div>
+            </a>
+            <a href="">
+              <div class="nav-link">ასაკის მიხედვით</div>
+            </a>
+            <a href="contact.html">
+              <div class="nav-link">კონტაქტი</div>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    </div>
   </header>
   <section id="img-section">
 
@@ -105,7 +146,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-6">
-          <span class="icon-Group-2236"></span>
+          
           <h1>რას ვაკეთებთ ?</h1>
           <p>
             CISV საგანმანათლებლო ორგანიზაციაა, რომელიც მშვიდობის მშენებლობას ემსახურება, საერთაშორისო მეგობრული
@@ -123,6 +164,17 @@
         <div class="col-md-6 col-6">
           <div class="row">
             <div class="img-div">
+              <div class="circle-img">
+                <img src="assets/img/Group1704.png" alt="first">
+                <a href="#">უსაფრთხოება</a></div>
+              <div class="circle-img">
+                <img src="assets/img/Group1710.png" alt="second">
+                <a href="#">განათლება</a></div>
+              <div class="circle-img">
+                <img src="assets/img/Group1713.png" alt="last">
+                <a href="#">გამოცდილება</a></div>
+            </div>
+            <div id="img-div">
               <div class="circle-img">
                 <img src="assets/img/Group1704.png" alt="first">
                 <a href="#">უსაფრთხოება</a></div>
@@ -216,6 +268,23 @@
         </div>
       </div>
     </div>
+    <div id="menu-bar">
+      <div id="menu" onclick="onClickMenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+      </div> 
+      
+      <ul class="nav" id="nav">
+          <li><a href="index.html"><span class="icon-home"></span</a></li>
+          <li><a href="document.html">Document</a></li>
+          <li><a href="show.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a  href="news.html">News</a></li>
+      </ul>
+     
+  </div>
+  <div class="menu-bg" id="menu-bg"></div>
   </section>
   <footer>
     <div class="footer-blue">
@@ -292,7 +361,15 @@
       arrows: false,
     });
   </script>
-
+  <script>
+    $('#img-div').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1900,
+      arrows: false,
+    });
+  </script>
 
   <script>
     $('.main-slider').slick({

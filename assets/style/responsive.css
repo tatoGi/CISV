@@ -1,3 +1,4 @@
+
 @media(max-width:1400px){
     .icon-search-1{
         padding-right: 0px;
@@ -89,12 +90,103 @@
     footer .container .row .first{
         display: none;
     }
-}
-@media(max-width:860px){
-    .nav-link {
-        color: #FFFFFF;
-        font-size: 9px;
-        font-family: 'BPG DejaVu Sans Caps';
-        padding-right: 5px;
+    footer .footer-blue .contact h3 {
+        padding: 18px 0;
+        font-size: 18px;
+        color: white;
+        font-family: 'BPGDejaVuSansCaps-Book';
+        font-weight: 800;
+        display: none;
     }
+    footer .footer-blue .contact a{
+        display: none;
+    }
+    footer .logo #logo-link{
+            display: none;
+    }
+    .main-slider .slick-slide a img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        transition-duration: 0.3s;
+    }
+    .slickarrow-next {
+        width: 0px;
+        height: 54px;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        padding: 19px 11px 0 11px;
+        background-color: #FAFAFA;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        color: #9D9D9D;
+        position: absolute;
+        transition-duration: 0.3s;
+        right: 0;
+        top: 200%;
+    }
+    
+.about-section .container .row .col-6 .img-div{
+    display: none;
+}
+.about-section .container .row .col-6 #img-div{
+    display: flex;
+}
+.about-section .container .row .col-6 p {
+    color: #6E6E6E;
+    height: 150.75px;
+    overflow: hidden;
+    font-size: 24px;
+    margin-top: 27.8px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Arial';
+}
+header .container-xl .navbar{
+    right: 0px;
+}
+main-slider .slick-slide a span {
+    top: 116px;
+}
+}
+
+@media(max-width:868px){
+    .logo{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    header .container .col-6 .form {
+        width: 155px;
+        height: 34px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    header .container .col-6 .social{
+        margin-top: 30px;
+    }
+    header .burgermenu{
+        display: block;
+        
+    }
+    .burgermenu #menuToggle {
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #menuToggle span{
+        background: white;
+    }
+    header .social h1{
+        display: none;
+    }
+    .slick-dots{
+        display: none;
+    }
+    
 }
