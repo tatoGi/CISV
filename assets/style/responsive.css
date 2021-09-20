@@ -188,5 +188,102 @@ main-slider .slick-slide a span {
     .slick-dots{
         display: none;
     }
-    
+    .info .container .row .col-6 .fb-insta span{
+        padding-left: 14px;
+    border-right-width: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    }
+    .connect .container .col-8 {
+        flex: 0 0 auto;
+        width: 49.666667%;
+    }
+    .connect .container .row .col-4 img{
+        margin-top: 200px;
+    }
+    .connect .container .row .col-8 p{
+        padding:0;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        height: 200px;
+    }
+    .program-section .container .row .card-body p {
+        font-size: 10px;
+        font-family: 'Arial';
+        margin-top: 9px;
+    }
+    .publication img {
+        width: 100%;
+        display: block;
+        height: 167px;
+        border: 2px solid #EB5E1C;
+        border-radius: 8px;
+        position: absolute;
+        transition-duration: 0.3s;
+        max-width: 278px;
+    }
+    .village .container .row .col-3 h1 {
+        color: #0070CD;
+        font-size: 23px;
+        font-family: 'BPG DejaVu Sans Caps';
+        margin-bottom: 0;
+    }
+    .village .container .row .col-3 span {
+        color: #0070CD;
+        font-size: 15px;
+    }
+    .village .container .row .col-3 h2 {
+        color: #EB5E1C;
+        font-size: 16px;
+    }   
+    .village .container .row .col-3 li {
+        color: #EB5E1C;
+        font-size: 10px;
+    }
+    .village .container .row .col-6 .short-text p {
+        font-size: 12px;
+        color: #404040;
+        font-family: 'Arial';
+        padding-top: 0px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .large-text {
+        font-size: 12px;
+        color: #404040;
+        font-family: 'Arial';
+    }
+    .village .container .col-6 img{
+        height: 300px;
+        margin-top: 50px;
+
+    }
+    .connect .container .row .col-4 img {
+        margin-top: 200px;
+        height: 300px;
+        width: 100%;
+    }
+    .connect .container .row .col-4 img {
+        margin-top: 200px;
+        height: 300px;
+        width: 100%;
+    }
+    .programs .container .row h1 {
+        text-align: center;
+        color: #EB5E1C;
+        font-size: 30px;
+        font-family: 'BPG DejaVu Sans Caps';
+        margin-top: 46px;
+        margin-bottom: 120px;
+    }
+    .programs{
+        padding:0;
+    }
+    .news-section .container .row .col-6 img {
+        margin-top: 165px;
+        margin-bottom: 0;
+        height: 200px;
+    }
 }

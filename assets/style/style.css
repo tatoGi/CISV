@@ -1478,6 +1478,22 @@ footer .container .row .col-4 .contact-us h1{
     width: 100%;
     height: 296px;
   }
+  .photo-gallery-inner .container .row .slickarrow-next {
+    width: 96px;
+    height: 91px;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    background-color: #FAFAFA;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #9D9D9D;
+    position: absolute;
+    transition-duration: 0.3s;
+    right: 0;
+    top: 1600px;
+  }
   .photo-gallery-inner .col-lg-3:nth-of-type(4n+1) .row{
     padding-right: 45px;
     padding-left: 0;
